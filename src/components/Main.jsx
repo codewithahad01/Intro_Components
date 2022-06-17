@@ -10,14 +10,14 @@ function Main() {
     return (
         <>
             <div className='container '>
-                <div className='md:flex md:flex-row-reverse md:m-20 '>
+                <div className='md:flex md:flex-row-reverse md:mt-10'>
 
                     <div className=''>
                         <img className='sr-only md:not-sr-only md:max-w-lg ' src={deskopImg} alt="img main" />
                         <img className='md:sr-only' src={mobileImg} alt="img main" />
                     </div>
 
-                    <div className='p-8 text-center justify-between my-8  md:mx-32'>
+                    <div className='p-8 text-center justify-between my-8  md:p-20 md:mx-32'>
                         <h1 className='text-4xl font-bold md:text-7xl'>Make Remote Work</h1>
                         <p className='text-center m-4 md:text-lg md:mt-6'> Get your team in sync, no matter your location. Streamline processes, 
                             create team rituals, and watch productivity soar.</p>
